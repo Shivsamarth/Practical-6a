@@ -1,0 +1,73 @@
+<html>
+
+<head>
+<title>HDFC BANK.</title>
+
+<style>
+h1{
+text-align:center;
+color:yellow;
+
+}
+Form{
+color:#red;
+margin-left:50;
+font-weight:bold;
+font-size:23;
+}
+input{
+height:20;
+border:solid blue 2px;
+}
+textarea{
+border:solid green 2px;
+font-size:15px;
+}
+</style>
+</head>
+
+<body>
+<h1>Feedback form of HDFC BANK.</h1>
+<form>
+<h3>First Name :<input placeholder="First Name ." size="45"></h3>
+<h3>Last Name :<input placeholder="Last Name ." size="45"></h3>
+<h3>Date of Birth :</h3>
+<input type="date"/>
+<h4>Gender : <input type="radio"><label>Male</label>  <input type="radio"><label>Female</label>  <input type="radio"><label>Other</label></h4>
+<h3><span style="color:#DAACB1">Choose Your Account Type :</h3>
+<label for ="account">Choose Appropriate Option:</label>
+<select>
+<option>Current.</option>
+<option>Savings.</option>
+<option>Recurring Deposits.</option>
+<option>Fixed Deposits.</option>
+<option selected="Default">Choose an Option.</option>
+
+
+</select>
+<br><br>
+<label >Upload a file:</label>
+<input type="file">
+<br><br><br>
+<textarea  id="feed" rows="5" cols="70">
+Write your Feedback
+
+</textarea>
+<br><br><br>
+<button onclick="fun()"><input type="image" src="Submit.png" height="100" width="150" id="img"></button>
+
+<h5 style="color:#408080">To Submit Your Response Click the Above Button.<h5>
+
+
+</form>
+<article> Shivsamarth Deshmukh 2017BTECS00028
+
+<script>
+function fun(){
+alert("Your Response Recorded Sucessfully)");
+}
+
+</script>
+</body>
+
+</html>
